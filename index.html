@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/img/ECOPIPO-LOGO.png" alt="" width="150" height="60" class="logo-home">
+        <nav>
+            <ul>
+                <li><a href="home.html" class="main-bar-section">Inicio</a></li>
+                <li><a href="" class="main-bar-section">Catalogo</a></li>
+                <li><a href="" class="main-bar-section">Soporte</a></li>
+            </ul>
+        </nav>
+
+        <div class="account-buttons">
+            <ul>
+                <li><a href="" class="signIn-buttons">Registrarse</a></li>
+                <li><a href="" class="signIn-buttons loging-button">Iniciar Sesión</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="buttons-container">
+        <div class="button blue">
+            Iniciar Sesión
+        </div>
+        <div class="button">
+            Registrarse
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-options-container">
+            <div class="footer-options">
+                <a href="">Aplicación Móvil</a>
+                <a href="">Comunidad</a>
+                <a href="">Compañia</a>
+            </div>
+
+            <img src="./assets/img/ECOPIPO-LOGO.png" alt="">
+
+            <div class="footer-options right">
+                <a href="">Ayuda</a>
+                <a href="">Blog</a>
+                <a href="">Recursos</a>
+            </div>
+        </div>
+        <div class="social-networks">
+           <img src="./assets/img/instagram.svg" alt="">
+           <img src="./assets/img/facebook.png" alt="">
+           <img src="./assets/img/twiter.png" alt="">
+           <img src="./assets/img/google.png" alt="">
+        </div>
+        <p>●-  @Alonso COPYRIGHT 2020 TODOS LOS DERECHOS RESERVADOS -● </p>
+    </footer>
+
+    <script>
+        var nav = document.querySelector("#hamburger button");
+
+        nav.addEventListener("click", function(e){
+            nav.classList.toggle("open")
+        });
+    </script>
+</body>
+</html>
